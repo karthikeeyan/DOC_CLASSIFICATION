@@ -1,8 +1,8 @@
-
+!pip install docx2txt
 import pandas as pd
 import numpy as np
 import streamlit as st
-import docx2txt,textract
+import docx2txt
 import pdfplumber
 import re
 import nltk
