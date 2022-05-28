@@ -1,4 +1,16 @@
-pip install doc2text==0.2.4
+
+
+
+RUN pip install numpy
+RUN pip install pandas
+RUN pip install sqlalchemy
+RUN pip install pymysql
+RUN pip install matplotlib
+RUN pip install streamlit
+RUN pip install doc2text
+
+
+ENTRYPOINT ["streamlit", "run", "app.py"]
 import pandas as pd
 import numpy as np
 import streamlit as st
