@@ -1,4 +1,4 @@
-!pip install docx2txt
+!pip install doc2txt
 import pandas as pd
 import numpy as np
 import streamlit as st
