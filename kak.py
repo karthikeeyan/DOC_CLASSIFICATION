@@ -1,4 +1,4 @@
-!pip install doc2text
+pip install doc2text==0.2.4
 import pandas as pd
 import numpy as np
 import streamlit as st
